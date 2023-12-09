@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:
+    linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/bg.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+}
+
+.img {
+    margin-left: 340px;
+    margin-top: 20px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+.title {
+    width: 570px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.inputs {
+    height: 100px;
+}
+
+.inputs input[type="text"]{
+    height: 40px;
+    width: 400px;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 4px;
+    margin-right:4px;
+    outline: none;
+    border: none;
+}
+
+.inputs input[type="submit"]{
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.inputs input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
+
+.display {
+    width: 510px;
+    height: 45vh;
+    color: black;
+    margin-top: 30px;
+}
+
+.wrapper {
+    background-color: white;
+    height: 45vh;
+    border-radius: 4px;
+    width: 510px;
+    margin-top: 30px;
+}
+
+.wrapper h2 {
+    color: black;
+    padding: 15px;
+}
+
+.wrapper p {
+    margin-top: 10px;
+    font-size: 23px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.wrapper h2 span {
+    font-size: 23px;
+    color: black
+}
+
+.wrapper p span {
+    font-size: 23px;
+    color: black
+}
